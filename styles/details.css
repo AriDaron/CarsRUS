@@ -1,0 +1,9 @@
+.options {
+    flex-basis: 24%;
+    margin: 0 2rem;
+    border: 2px dashed rgb(255, 30, 244);
+    padding: 1rem;
+    border-radius: 0.5rem;
+    box-shadow: 0.25rem 0.25rem 0.5rem rgb(143, 143, 143);
+}
+
