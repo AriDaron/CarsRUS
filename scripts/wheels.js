@@ -5,7 +5,7 @@ const wheels = getWheels()
 document.addEventListener(
     "change",
     (event) => { if (event.target.name === "wheels") {
-        setWheels(parseInt(clickEvent.target.value))
+        setWheels(parseInt(event.target.value))
 
     }
 }
@@ -14,7 +14,7 @@ document.addEventListener(
  export const Wheels = () => {
     let html = "<h2></h2>"
 
-    html += '<select id="wheels">'
+    html += '<select name="wheels">'
     html += '<option value="0">Select a wheel type </option>'
 
     const arrayOfOptions = wheels.map( (wheels) => {

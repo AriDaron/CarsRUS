@@ -37,9 +37,10 @@ const database = {
     customOrders: [
         {
             id: 1,
-            metalId: 3,
-            sizeId: 2,
-            styleId: 3,
+            paintColorId: 3,
+            interiorId: 2,
+            technologyId: 3,
+            wheelId: 2,
             timestamp: 1614659931693
         }
     ],

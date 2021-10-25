@@ -4,19 +4,7 @@ const mainContainer = document.querySelector("#container")
 
 const renderAllHTML = () => {
     mainContainer.innerHTML = CarsRUs()
-    /*`
-    <section class="allOptions">
-   
-    
-interiorhtml
-paintcolorhtml
-technologyhtml
-wheelshtml
 
-</section>
-
-`
-*/
 }
 
 renderAllHTML()

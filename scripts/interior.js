@@ -14,10 +14,10 @@ document.addEventListener(
 export const Interiors = () => {
     let html = "<h2></h2>"
 
-    html += '<select id="Fabric">'
+    html += '<select name="Fabric">'
     html += '<option value="0">Select an interior fabric </option>'
 
-    const arrayOfOptions = interiors.map( (interior) => {
+    const arrayOfOptions = interiors.map(interior => {
             return `<option value="${interior.id}">${interior.fabric}</option>`
         }
     )

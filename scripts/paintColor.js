@@ -4,8 +4,8 @@ const paintColors = getPaintColor()
 
 document.addEventListener(
     "change",
-    (event) => { if (event.target.name === "Color") {
-        setPaintColor(parseInt(clickEvent.target.value))
+    (event) => { if (event.target.name === "color") {
+        setPaintColor(parseInt(event.target.value))
 
     }
 }
@@ -15,7 +15,7 @@ document.addEventListener(
 export const PaintColors = () => {
     let html = "<h2></h2>"
 
-    html += '<select id="Color">'
+    html += '<select name="color">'
     html += '<option value="0">Select a color</option>'
 
     const arrayOfOptions = paintColors.map( (paintColors) => {
